@@ -47,6 +47,9 @@
 		678E1C8222660715003929F8 /* AppFullscreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E1C8122660715003929F8 /* AppFullscreenController.swift */; };
 		678E1C8422660A04003929F8 /* AppFullscreenDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E1C8322660A04003929F8 /* AppFullscreenDescriptionCell.swift */; };
 		678E1C8622664FF4003929F8 /* AppFullscreenHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E1C8522664FF4003929F8 /* AppFullscreenHeaderCell.swift */; };
+		678E1C8822677D4F003929F8 /* TodayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E1C8722677D4F003929F8 /* TodayItem.swift */; };
+		678E1C8A2268B628003929F8 /* TodayMultipleAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E1C892268B628003929F8 /* TodayMultipleAppCell.swift */; };
+		678E1C8C2268BCE5003929F8 /* BaseTodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E1C8B2268BCE5003929F8 /* BaseTodayCell.swift */; };
 		C326CD92B9E5F52BD75F8D21 /* Pods_AppStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E162F16E6BFDECD05800CA84 /* Pods_AppStore.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +96,9 @@
 		678E1C8122660715003929F8 /* AppFullscreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFullscreenController.swift; sourceTree = "<group>"; };
 		678E1C8322660A04003929F8 /* AppFullscreenDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFullscreenDescriptionCell.swift; sourceTree = "<group>"; };
 		678E1C8522664FF4003929F8 /* AppFullscreenHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFullscreenHeaderCell.swift; sourceTree = "<group>"; };
+		678E1C8722677D4F003929F8 /* TodayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayItem.swift; sourceTree = "<group>"; };
+		678E1C892268B628003929F8 /* TodayMultipleAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayMultipleAppCell.swift; sourceTree = "<group>"; };
+		678E1C8B2268BCE5003929F8 /* BaseTodayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTodayCell.swift; sourceTree = "<group>"; };
 		9286BDCB20030ED958D5DC5E /* Pods-AppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore.release.xcconfig"; path = "Target Support Files/Pods-AppStore/Pods-AppStore.release.xcconfig"; sourceTree = "<group>"; };
 		C757936C6B1E259E5723EE21 /* Pods-AppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore.debug.xcconfig"; path = "Target Support Files/Pods-AppStore/Pods-AppStore.debug.xcconfig"; sourceTree = "<group>"; };
 		E162F16E6BFDECD05800CA84 /* Pods_AppStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +243,7 @@
 				671DCA7F2230742F00CF224D /* AppGroup.swift */,
 				678E1C632242CDFE003929F8 /* SocialApp.swift */,
 				678E1C79224D41CB003929F8 /* Reviews.swift */,
+				678E1C8722677D4F003929F8 /* TodayItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +292,8 @@
 				678E1C7F22650E3D003929F8 /* TodayCell.swift */,
 				678E1C8322660A04003929F8 /* AppFullscreenDescriptionCell.swift */,
 				678E1C8522664FF4003929F8 /* AppFullscreenHeaderCell.swift */,
+				678E1C892268B628003929F8 /* TodayMultipleAppCell.swift */,
+				678E1C8B2268BCE5003929F8 /* BaseTodayCell.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -409,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678E1C8822677D4F003929F8 /* TodayItem.swift in Sources */,
 				678E1C642242CDFE003929F8 /* SocialApp.swift in Sources */,
 				671E1FB62222DF6E00030008 /* ViewController.swift in Sources */,
 				671E1FB42222DF6E00030008 /* AppDelegate.swift in Sources */,
@@ -434,6 +444,7 @@
 				671E1FCC222444D800030008 /* SearchResultCell.swift in Sources */,
 				671E1FD5222853D900030008 /* DistributionStackView.swift in Sources */,
 				678E1C70224BFC7E003929F8 /* PreviewCell.swift in Sources */,
+				678E1C8C2268BCE5003929F8 /* BaseTodayCell.swift in Sources */,
 				678E1C78224D2BDC003929F8 /* ReviewCell.swift in Sources */,
 				671E1FDB222AEF0100030008 /* Service.swift in Sources */,
 				678E1C6B2249755D003929F8 /* AppDetailController.swift in Sources */,
@@ -445,6 +456,7 @@
 				671DCA7A222FF96C00CF224D /* AppsPageHeader.swift in Sources */,
 				678E1C662244110C003929F8 /* HorizontalSnappingController.swift in Sources */,
 				671E1FD3222853B900030008 /* SpacingStackView.swift in Sources */,
+				678E1C8A2268B628003929F8 /* TodayMultipleAppCell.swift in Sources */,
 				671DCA6B222F054E00CF224D /* AppsPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
